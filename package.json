@@ -24,8 +24,31 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ionică Bizău",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "dependencies": {
     "tilda": "^4.4.12"
+  },
+  "homepage": "https://github.com/IonicaBizau/git-change-author#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/git-change-author.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/git-change-author/issues"
   }
 }
