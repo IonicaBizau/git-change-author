@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "git-change-author": "bin/git-change-author.js"
+  },
   "name": "git-change-author",
   "description": "Set a specific author for all the commits of a git repository.",
   "keywords": [
@@ -21,5 +24,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ionică Bizău"
+  "author": "Ionică Bizău",
+  "dependencies": {
+    "tilda": "^4.4.12"
+  }
 }
