@@ -1,0 +1,25 @@
+{
+  "name": "git-change-author",
+  "description": "Set a specific author for all the commits of a git repository.",
+  "keywords": [
+    "git",
+    "change",
+    "author",
+    "set",
+    "a",
+    "specific",
+    "for",
+    "all",
+    "the",
+    "commits",
+    "of",
+    "repository"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău"
+}
