@@ -19,7 +19,11 @@ new Tilda(`${__dirname}/../package.json`, {
     }, {
         name: "name"
       , desc: "The author name to set."
-    }]
+    }],
+    examples: [
+        "git-change-author 'foo@bar.com' 'Alice B.'"
+      , "git-change-author 'foo@bar.com' 'Alice B.' -f # With force"
+    ]
 }).main(action => {
     const email = action.args.email
     const name = action.args.name
