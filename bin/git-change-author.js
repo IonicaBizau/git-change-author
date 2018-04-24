@@ -10,7 +10,8 @@ new Tilda(`${__dirname}/../package.json`, {
     options: [{
         name: "force",
         opts: ["f", "force"],
-        desc: "Wheter to force the overwriting of the git backup."
+        desc: "Wheter to force the overwriting of the git backup.",
+        type: Boolean
     }],
     args: [{
         name: "email"
