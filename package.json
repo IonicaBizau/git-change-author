@@ -26,6 +26,7 @@
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "dependencies": {
+    "spawno": "^2.0.7",
     "tilda": "^4.4.12"
   },
   "homepage": "https://github.com/IonicaBizau/git-change-author#readme",
