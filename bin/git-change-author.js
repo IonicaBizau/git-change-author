@@ -28,8 +28,8 @@ new Tilda(`${__dirname}/../package.json`, {
     const email = action.args.email
     const name = action.args.name
     const proc = spawn("git", ["filter-branch", action.options.force.is_provided ? "-f" : null, "--env-filter", `
-        CORRECT_NAME="${email}"
-        CORRECT_EMAIL="${name}"
+        CORRECT_NAME="${name}"
+        CORRECT_EMAIL="${email}"
         export GIT_COMMITTER_NAME="$CORRECT_NAME"
         export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
         export GIT_AUTHOR_NAME="$CORRECT_NAME"
